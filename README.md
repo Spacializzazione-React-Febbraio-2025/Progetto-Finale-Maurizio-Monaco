@@ -1,12 +1,40 @@
-# React + Vite
+# 🎮 ReHacktor - Piattaforma Gamer
+**By Maurizio Monaco**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReHacktor è una piattaforma interattiva pensata per appassionati di videogiochi: puoi scoprire nuovi giochi, salvarli tra i tuoi preferiti, discuterne in tempo reale con altri utenti e gestire un profilo personale.  
+Realizzata in React + Supabase + Vite, offre un'esperienza dinamica e moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo online
+👉 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧪 Funzionalità principali
+
+- ✅ Navigazione dinamica per genere, gioco e profilo
+- ✅ Autenticazione utenti (login, registrazione, logout)
+- ✅ Gestione preferiti (aggiunta/rimozione da Supabase)
+- ✅ Chat pubblica in tempo reale per ogni gioco
+- ✅ Upload e gestione avatar utente
+- ✅ UI moderna con Tailwind CSS e feedback via toast
+- ✅ Context API per gestione globale di sessione e favoriti
+- ✅ Chat visualmente distinta (messaggi propri e altrui)
+
+---
+
+## 🛠️ Tecnologie e librerie utilizzate
+
+| Strumento            | Utilizzo                                         |
+|----------------------|--------------------------------------------------|
+| **React + Vite**     | UI e gestione SPA                                |
+| **Supabase**         | Auth, Realtime DB, Storage                       |
+| **React Router DOM** | Routing dinamico                                 |
+| **Zod**              | Validazione form (login, registrazione)          |
+| **Tailwind CSS**     | Styling moderno e responsive                     |
+| **React Toastify**   | Notifiche utente eleganti                        |
+| **DayJS**            | Formattazione date nei messaggi della chat       |
+| **React Icons**      | Icone interattive (preferiti, layout, ecc.)      |
+
+---
