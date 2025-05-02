@@ -7,7 +7,7 @@ Realizzata in React + Supabase + Vite, offre un'esperienza dinamica e moderna.
 ---
 
 ## 🚀 Demo online
-👉 
+👉 https://rehacktor-maurizio-monaco.vercel.app/
 
 ---
 
